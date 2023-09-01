@@ -1,0 +1,64 @@
+{
+	// Place your snippets for javascriptreact here. Each snippet is defined under a snippet name and has a prefix, body and 
+	// description. The prefix is what is used to trigger the snippet and the body will be expanded and inserted. Possible variables are:
+	// $1, $2 for tab stops, $0 for the final cursor position, and ${1:label}, ${2:another} for placeholders. Placeholders with the 
+	// same ids are connected.
+	// Example:
+	"Current Document": {
+		"prefix": "acd",
+		"body": [
+			"app.documents[0]"
+		],
+		"description": ""
+	},
+	"Current Selection": {
+		"prefix": "acs",
+		"body": [
+			"app.selection[0]"
+		],
+		"description": ""
+	},
+	"Pages collection ": {
+		"prefix": "pag",
+		"body": [
+			"app.documents[$1].pages[$2]"
+		],
+		"description": ""
+	},
+	"Layers collection ": {
+		"prefix": "lay",
+		"body": [
+			"app.documents[$1].layer[$2]"
+		],
+		"description": ""
+	},
+	"InsertionPoints collection ": {
+		"prefix": "ins",
+		"body": [
+			"app.documents[$1].insertionPoints[$2]"
+		],
+		"description": ""
+	},
+	"Links collection ": {
+		"prefix": "lin",
+		"body": [
+			"app.documents[$1].links[$2]"
+		],
+		"description": ""
+	},
+	"TextFrames collection ": {
+		"prefix": "tfs",
+		"body": [
+			"app.documents[$1].textFrames[$2]"
+		],
+		"description": ""
+	},
+	"PageItems collection ": {
+		"prefix": "pitm",
+		"body": [
+			"app.documents[$1].pageItems[$2]",
+			"$2"
+		],
+		"description": ""
+	}
+}
