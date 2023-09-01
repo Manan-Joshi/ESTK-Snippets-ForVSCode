@@ -56,8 +56,7 @@
 	"PageItems collection ": {
 		"prefix": "pitm",
 		"body": [
-			"app.documents[$1].pageItems[$2]",
-			"$2"
+			"app.documents[$1].pageItems[$2]"
 		],
 		"description": ""
 	}
